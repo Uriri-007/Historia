@@ -1,7 +1,7 @@
 # Historia Project
 
 ## Overview
-Historia is a project aimed at providing a comprehensive historical database,
+Historia is a (command line) program aimed at providing a comprehensive historical database,
 allowing users to explore significant events, timelines, and figures that have shaped human civilization.
 
 ## Features
@@ -10,22 +10,19 @@ allowing users to explore significant events, timelines, and figures that have s
 - **Timeline Visualization:** Interactive timelines to understand the chronology of events.
 
 ## Getting Started
-To get started with the Historia project, clone the repository and install the necessary dependencies:
+To get started with the Historia project, clone the repository and install the necessary dependencies (do not forget to get your own api key from Google AI Studio):
 
 ```bash
 git clone https://github.com/Uriri-007/Historia.git
 cd Historia
 npm install
 ```
-
 ## Usage
 To run the project locally, use the following command:
 
 ```bash
-npm start
+node index.js
 ```
-
-Visit `http://localhost:3000` in your browser to access the application.
 
 ## Contributing
 We welcome contributions from everyone! To contribute to the Historia project:
@@ -37,4 +34,4 @@ We welcome contributions from everyone! To contribute to the Historia project:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-For questions or support, please reach out to the project maintainer: Uriri-007
+For questions or inquiries, you can reach out to me on [github](https://github.com/Uriri-007/)
