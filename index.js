@@ -1,10 +1,10 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import inquirer from "inquirer";
 import chalk from "chalk";
+import 'dotenv/config'; 
 
 // --- Configuration ---
-const API_KEY = "AIzaSyBtlYklJwA_wTawrGbJ1GgoqGCCNwFGPKY"; 
-const genAI = new GoogleGenerativeAI(API_KEY);
+const genAI = new GoogleGenerativeAI(process.env.API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" }); // Note: Using 1.5 flash as 2.5 is not yet in public GA
 
 /**
